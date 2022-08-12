@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerTop {
+  background-color: rgb(49, 49, 50);
+  height: 45px !important;
+  margin-top: 0px !important;
+  z-index: 100;
+}
+
+#headerTop .container {
+  padding: 0px 75px 0px 75px !important ;
+}
+
+nav {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#menuDropDown {
+  width: 100%;
+  height: 100vh !important;
+  position: absolute;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+}
+.menuHeader {
+  width: 100% !important  ;
+  height: 45px !important;
+  background-color: black !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+}
+.menuHeader i {
+  font-size: 16px !important;
+}
+.search {
+  width: 100%;
+  height: 50px !important;
+  background-color: black;
+  border-bottom: 1px solid rgb(82, 81, 81);
+  padding: 0px 15px;
+}
+.search input {
+  width: 100%;
+  border: none;
+  background-color: rgb(29, 29, 31);
+  height: 35px !important;
+  border-radius: 5px;
+  padding: 0px 10px 0px 40px;
+  color: white;
+}
+.search input:focus {
+  outline: none !important;
+}
+.bi-search {
+  font-size: 15px;
+  position: absolute;
+  top: 8px;
+  left: 30px;
+}
+.menuHeaderContent {
+  padding: 0px 45px 0px 45px;
+}
+.menuHeaderContent div {
+  height: 45px;
+  border-bottom: 1px solid rgb(82, 81, 81);
+  display: flex;
+  align-items: center !important;
+}
+
+.menuHeaderContent p {
+  color: rgb(185, 185, 185);
+  margin: 0;
+}
+
+a {
+  color: rgb(205, 205, 205) !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+i {
+  color: rgb(205, 205, 205) !important;
+  font-weight: 400 !important;
+}
+
+.bi-search {
+  font-size: 13px !important;
+}
+.bi-bag {
+  font-size: 16px !important;
+}
+.bi-apple {
+  font-size: 16px !important;
+}
+.bi-list {
+  font-size: 16px !important;
+  color: white !important;
+  margin-left: 10px;
+}
+
+#headerBottom {
+  height: 70px;
+  margin-top: 45px !important;
+}
+
+#headerBottom .row .col a {
+  font-size: 14px !important;
+  margin-left: 15px;
+  color: rgb(62, 137, 229) !important;
+  text-decoration: none;
+}
+#headerBottom .row .col a i {
+  color: rgb(62, 137, 229) !important;
+  font-size: 10px;
+}
+
+#bodyOne {
+  height: 580px !important;
+  background-color: rgb(245, 245, 247) !important;
+  margin-bottom: 10px;
+}
+
+#headingP1 {
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+
+#headingP1 span {
+  color: rgb(202, 33, 102);
+}
+
+#headingP2 {
+  font-size: 25px;
+  margin-bottom: 0px !important;
+}
+#bodyOne .row .col a {
+  text-decoration: none;
+  font-size: 20px !important;
+}
+
+#bodyOne .row .col a i {
+  font-size: 15px !important;
+  color: rgb(62, 137, 229) !important;
+}
+#body2 {
+  background-image: url(assets/images/hero_macbookair__el7scava26mq_large.png);
+  background-color: rgb(250, 250, 250); /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#body2 {
+  height: 580px;
+}
+
+#body3 {
+  background-image: url(assets/images/hero_iphone13_avail__gnqqkzuai6um_small.jpg);
+  background-color: rgb(251, 251, 253);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#body4 #img1 {
+  background-image: url(assets/images/promo_iphone13pro_avail__beadms4ldidu_medium.jpg);
+  background-color: rgb(250, 250, 250);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#body4 #img2 {
+  background-image: url(assets/images/promo_mbp13__buwssod6c8vm_medium.jpg);
+  background-color: rgb(250, 250, 250);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#body5 #img1 {
+  background-image: url(assets/images/promo_watch_lte__djeaso7ukrsm_medium.jpg);
+  background-color: rgb(250, 250, 250);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#body5 #img2 {
+  background-image: url(assets/images/promo_ipadair_avail__ferd4bfpcdm6_medium.jpg);
+  background-color: rgb(250, 250, 250);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#body6 #img1 {
+  background-image: url(assets/images/Apple_Card.webp);
+  background-color: rgb(250, 250, 250);
+  height: 580px;
+  background-size: 90% 60%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+#body6 #img2 {
+  background-image: url(assets/images/music.jpg);
+  background-color: rgb(250, 250, 250);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------------------------------------- */
+.innerHeadingBig {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+.innerHeadingSmall {
+  font-size: 25px;
+  margin: 0;
+}
+.acnhorTag {
+  font-size: 20px !important;
+  text-decoration: none;
+  color: rgb(45, 103, 204) !important;
+}
+.acnhorTag i {
+  font-size: 14px !important;
+  color: rgb(45, 103, 204) !important;
+}
+/* ------------------------------------------- */
+.innerHeadingBig2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.innerHeadingSmall2 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.acnhorTag2 {
+  font-size: 17px !important;
+  text-decoration: none;
+  color: rgb(45, 103, 204) !important;
+}
+.acnhorTag2 i {
+  font-size: 14px !important;
+  color: rgb(45, 103, 204) !important;
+}
+.acnhorTag3 {
+  font-size: 17px !important;
+  text-decoration: none;
+  color: white !important;
+}
+.acnhorTag3 i {
+  font-size: 14px !important;
+  color: white !important;
+}
+#apple {
+  color: black !important;
+  font-size: 35px !important;
+}
+#apple2 {
+  color: white !important;
+  font-size: 35px !important;
+}
+
+.carousel-item {
+  height: 530px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#body8 {
+  background-color: rgb(245, 245, 247);
+}
+#body8 .container {
+  padding: 20px 70px 20px 70px !important;
+}
+#body8 p {
+  font-size: 12px;
+  color: #6e6e73;
+}
+#footerMenu div a {
+  text-decoration: none;
+  color: rgb(99, 99, 99) !important;
+  margin-bottom: 7px;
+}
+.footer-menu-heading {
+  color: black !important;
+  font-weight: 800 !important;
+}
+.collapsePTag {
+  padding: 0 !important;
+  margin: 0;
+}
+.collapseATag {
+  width: 100%;
+  padding: 0;
+  color: #6e6e73 !important;
+  border-radius: 0px !important;
+  text-align: left !important;
+  padding: 10px 00px;
+  display: flex;
+  justify-content: space-between;
+}
+.collapseATag:focus {
+  border: none !important;
+  color: black !important;
+}
+/* .collapseATag:active {
+  color: black !important;
+} */
+.collapseATag:hover {
+  border: transparent !important;
+  color: black !important;
+}
+.collapseSet {
+  border: none !important;
+  background-color: rgb(245, 245, 247);
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.collapseSet a {
+  text-decoration: none !important;
+  color: #6e6e73 !important;
+  margin-bottom: 10px;
+}
+.collapseSet a:hover {
+  text-decoration: underline !important;
+}
+
+.findATag {
+  color: rgb(45, 103, 204) !important;
+  text-decoration: none !important;
+}
+.findATag:hover {
+  /* color: rgb(45, 103, 204) !important; */
+  text-decoration: underline !important;
+}
+.footerPolicy a {
+  text-decoration: none !important;
+  color: #6e6e73 !important;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.footerPolicy a:hover {
+  text-decoration: underline !important;
+}
+.footerPolicy {
+  color: #dbdbdb !important;
+}
+.unitedState {
+  text-decoration: none !important;
+  color: #6e6e73 !important;
+}
+.unitedState:hover {
+  text-decoration: underline !important;
+}
+
+.copyRight {
+  margin-right: 20px !important;
+}
+
+@media screen and (max-width: 768px) {
+  #headerTop .container {
+    padding: 0px 0px 0px 0px !important ;
+    /* margin: 0px 20px; */
+  }
+  #headerTop .row {
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  #headerTop .col {
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  #footerMenu {
+    display: none !important;
+  }
+  #line {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 500px) {
+  .icon {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+  #body8 .container {
+    padding: 20px 20px 20px 20px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    display: none;
+  }
+  .headerBottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 60px 0px 60px;
+  }
+  .headerBottom img {
+    width: 100px;
+  }
+  #headerBottom {
+    height: 100px !important;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+  #body8 .container {
+    padding: 20px 20px 20px 20px !important;
+  }
+  .footerPolicy a {
+    margin: 0px !important;
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+  }
+  .unitedState {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bi-list {
+    display: none;
+  }
+  .footerMenuMobile {
+    display: none;
+  }
+  .bi-search {
+    display: none;
+  }
+  #menuDropDown {
+    display: none !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #headerBottom .row .col a {
+    margin: 0px 20px;
+  }
+  #headingP1 {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  #headingP2 {
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  #bodyOne .row .col a {
+    font-size: 16px !important;
+  }
+  #bodyOne .row .col img {
+    width: 300px;
+  }
+  #bodyOne {
+    height: 480px !important;
+  }
+  #headingP2 {
+    font-size: 20px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #headingP1 {
+    font-size: 35px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #headingP1 {
+    font-size: 45px;
+  }
+  #body8 .container {
+    padding: 20px 20px 20px 20px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #headingP1 {
+    font-size: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #headingP1 {
+    font-size: 55px;
+  }
+}
